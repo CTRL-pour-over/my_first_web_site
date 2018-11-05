@@ -1,0 +1,124 @@
+body {
+    background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 20px;
+    color: #009933;
+    background-color: #000000;
+    margin: 20px;
+    padding: 0;
+}
+
+
+li:before {
+    content: "POW! ";
+    background: red;
+    color: #fc0;
+}
+
+p {
+    margin: 1px 5px 10px 20px;
+}
+/* This is a comment, by the way */
+p {
+    border: 1px red solid;
+}
+
+li { display: inline }
+
+#navigation a {
+    display: block;
+    padding: 20px 10px;
+}
+
+p {
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
+}
+
+h1 {
+    color: #009933;
+    background-color: #000000;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #c00;
+}
+
+h2 {
+    color: #009933;
+    background-color: #000000;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2px;
+    padding-left: 14px;
+}
+
+h3 {
+    color: #009933;
+    font-size: 1.25em;
+}
+
+img {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+li {
+    color: #009933;
+    font-style: italic;
+}
+
+table {
+    background-color: #000000;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+
+p:first-child {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#content {
+    margin-left: 200px;
+}
